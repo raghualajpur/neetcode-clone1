@@ -1,11 +1,11 @@
 const express=require("express")
 const app=express()
-app.use(express.static("frontend"))
 
 
 app.get("/",function(req,res){
     res.send("Hello World")
 })
+app.use(express.static("frontend"))
 app.get("/html",function(req,res){
     res.sendFile(__dirname+"/frontend/index.html")
 })
