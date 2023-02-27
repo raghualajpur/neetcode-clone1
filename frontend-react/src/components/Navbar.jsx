@@ -14,10 +14,10 @@ function OurNavbar() {
         <Nav.Link href="/pro">Pro</Nav.Link>
       </Nav>
         <div>                                        
-          <Button variant="outline-primary" style={{ marginRight: "20px" }}>
+          <Button variant="danger" style={{ marginRight: "20px" }}>
              dark
           </Button>
-          <Button variant="primary">
+          <Button variant="danger">
              Sign In
           </Button>
         </div>
